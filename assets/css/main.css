@@ -103,13 +103,13 @@ a:hover {
 }
 
 .main-banner__text {
-	position: absolute;
-	top: 10%;
-	color: #fff;
-	background: #33557bb0;
-	margin-left: 55px;
-	/* padding: 35px; */
-	padding: 35px 50px 30px 30px;
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    margin-left: 55px;
+    padding: 35px 30px 30px;
+    background-image: linear-gradient(to bottom, #2450789e, #2450789e);
+    width: 437px;
 }
 
 
@@ -123,11 +123,13 @@ a:hover {
 
 .main-banner__text p:nth-child(1) {
 	font-family: "PlayfairDisplay";
-	font-size: 2.8rem;
+	font-size: 45px;
 	line-height: 1.3;
 
 }
-
+.banner{
+	position: relative;
+}
 .main-banner__text .price p {
 	font-size: 2rem;
 	font-family: 'Montserrat', sans-serif;
@@ -146,7 +148,7 @@ a:hover {
 
 
 .main-banner__text span {
-	font-size: 1.5rem;
+	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 }
@@ -158,9 +160,9 @@ a:hover {
 	font-size: 1.2rem;
 }
 
-.dropdown_aroow img {
+/* .dropdown_aroow img {
 	position: absolute;
-}
+} */
 
 .dropdown_aroow {
 	display: flex;
@@ -171,7 +173,7 @@ a:hover {
 }
 
 .content-form {
-	background: #113759;
+	background: #245078;
 	color: #fff;
 	padding: 50px;
 	display: grid;
@@ -205,7 +207,9 @@ textarea {
 	border: 1px solid #ced4da00 !important;
 	border-radius: 0 !important;
 	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-	font-family: "Montserrat Thin";
+	font-weight: 300;
+	font-family: Montserrat;
+	font-size: 15px;
 }
 
 label {
