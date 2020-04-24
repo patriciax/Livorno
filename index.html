@@ -20,7 +20,7 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-md fixed-top navbar-fixed-js">
+		<nav class="navbar navbar-expand-md fixed-top navbar-fixed-js" id="nav">
 			<div class="container-nav">
 				<div class="main-brand">
 					<a class="navbar-brand" href="index.html">
@@ -33,30 +33,29 @@
 				<div class="navbar-collapse offcanvas-collapse">
 					<ul class="navbar-nav m-auto">
 						<li class="nav-item ">
-							<a class="nav-link  " href="#">Acerca del PROYECTO</a>
+							<a class="nav-link  " href="#acerca">Acerca del PROYECTO</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#ZONASCOMUNES">ZONAS COMUNES</a>
+							<a class="nav-link " href="#zonas-comunes">ZONAS COMUNES</a>
 
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#GALERÍAEXTERIOR">GALERÍA EXTERIOR</a>
+							<a class="nav-link " href="#galeria-exterior">GALERÍA EXTERIOR</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#PLANOSDELPROYECTO">PLANOS DEL PROYECTO</a>
+							<a class="nav-link " href="#planos">PLANOS DEL PROYECTO</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#galeriaapartamento">galería apartamento</a>
+							<a class="nav-link " href="#galeria-apto">galería apartamento</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#UBICACIÓN">UBICACIÓN</a>
+							<a class="nav-link" href="#ubicacion">UBICACIÓN</a>
 						</li>
 						<li class="nav-item ml-6">
-							<a class="nav-link" href="#UBICACIÓN"><img src="assets/img/iconos/fb_2.png" alt=""></a>
+							<a class="nav-link" href="#"><img src="assets/img/iconos/fb_2.png" alt=""></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#UBICACIÓN"><img src="assets/img/iconos/instagram_2.png"
-									alt=""></a>
+							<a class="nav-link" href="#"><img src="assets/img/iconos/instagram_2.png" alt=""></a>
 						</li>
 					</ul>
 				</div>
@@ -66,38 +65,64 @@
 
 	<!-- banner -->
 	<section class="banner">
-		<div class="main-banner">
-			<div class="main-banner__img">
-				<img src="assets/img/banner.png" alt="">
+
+		<div class="main-banner__content">
+			<div class="main-banner__items">
+				<div class="main-banner">
+					<div class="main-banner__img">
+						<img src="assets/img/banner.png" alt="">
+					</div>
+					<div class="main-banner__text">
+						<p>Livorno <br>APARTAMENTOS</p>
+						<hr>
+						<span>Ubicación</span>
+						<p>LOMA DE SAN JOSE, <br> SABANETA</p>
+						<span>Área </span>
+						<p>55 m² hasta 62 m²</p>
+						<span>Desde </span>
+						<div class="price">
+							<p>$251.913.401<br>
+								<small>Valor impuestos incluido*</small>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="main-banner__text">
-				<p>Livorno <br>APARTAMENTOS</p>
-				<hr>
-				<span>Ubicación</span>
-				<p>LOMA DE SAN JOSE, <br> SABANETA</p>
-				<span>Área </span>
-				<p>55 m² hasta 62 m²</p>
-				<span>Desde </span>
-				<div class="price">
-					<p>$251.913.401<br>
-						<small>Valor impuestos incluido*</small>
-					</p>
+			<div class="main-banner__items">
+				<div class="main-banner">
+					<div class="main-banner__img">
+						<img src="assets/img/banner.png" alt="">
+					</div>
+					<div class="main-banner__text">
+						<p>Livorno <br>APARTAMENTOS</p>
+						<hr>
+						<span>Ubicación</span>
+						<p>LOMA DE SAN JOSE, <br> SABANETA</p>
+						<span>Área </span>
+						<p>55 m² hasta 62 m²</p>
+						<span>Desde </span>
+						<div class="price">
+							<p>$251.913.401<br>
+								<small>Valor impuestos incluido*</small>
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="dropdown_aroow">
-			<img src="assets/img/dropdown.png" alt="">
+		<a href="#acerca">	<img src="assets/img/dropdown.png" alt=""></a>
 		</div>
 	</section>
 	<!-- form -->
-	<section>
+	<section id="form_1">
 		<div class="content-form">
 			<div class="form__item">
 				<p>Te llamamos para darte <br> <span>una asesoría completa</span></p>
 			</div>
 			<div class="form__item">
 				<form action="#">
-					<div class="row">
+					<div class="row form-w">
 						<div class="col-md-6">
 							<div class="row form-group">
 								<div class="col-md-12 mb-3 mb-md-0">
@@ -151,7 +176,7 @@
 	</section>
 
 	<!-- Acerca de.... -->
-	<section>
+	<section id="acerca">
 		<div class="main-about">
 			<div class="main-about__item">
 				<img src="assets/img/about.png" alt="">
@@ -172,10 +197,6 @@
 						de la Toscana con apartamentos entre 55 y 62 mts2. 2 torres de 23 y 24 pisos
 						1 torre de parqueaderos.
 					</p>
-
-
-					<!-- <p>D 24 pisos de apartamentos, 6 apartamentos por piso: 3 aptos de 75.00, 3 aptos de 70.00, para un total de 144 apartamentos. .</p>
-					<p>	En total el proyecto quedara conformado por 288 apartamentos, además contara con 6 niveles de parqueaderos, 288 parqueaderos privados y 48 parqueaderos visitantes</p> -->
 				</div>
 				<!--zonas -->
 				<div class="main-zone">
@@ -186,13 +207,11 @@
 							<li>Gimnasio</li>
 							<li>Piscina</li>
 							<li>Terraza</li>
-
-
 						</ul>
 						<span class="number">01</span>
 					</div>
 
-					<a href="" class="btn-general">ver galeria</a>
+					<a href="#galeria-apto" class="btn-general">ver galeria</a>
 				</div>
 			</div>
 
@@ -202,7 +221,7 @@
 	</section>
 
 	<!-- Zonas comunes -->
-	<section>
+	<section id="zonas-comunes">
 		<div class="content-zone">
 
 			<div class="content-zone__item">
@@ -244,7 +263,7 @@
 	</section>
 
 	<!-- galleria -->
-	<section class="p-50">
+	<section id="galeria-exterior" class="p-50">
 		<div class="main-galery">
 			<div class="title-general">
 				<h3>Galería <span>exterior</span></h3>
@@ -257,10 +276,18 @@
 
 						<div class="grid-slide">
 							<div class="grid-row">
-								<img src="assets/img/galeria/image_11.png" alt="" />
-								<img src="assets/img/galeria/image_12.png" alt="" />
-								<img src="assets/img/galeria/image_13.png" alt="" />
-								<img src="assets/img/galeria/image_14.png" alt="" />
+								<div>
+									<img src="assets/img/galeria/image_11.png" alt="" />
+								</div>
+								<div>
+									<img src="assets/img/galeria/image_12.png" alt="" />
+								</div>
+								<div>
+									<img src="assets/img/galeria/image_13.png" alt="" />
+								</div>
+								<div>
+									<img src="assets/img/galeria/image_14.png" alt="" />
+								</div>
 							</div>
 
 						</div>
@@ -292,7 +319,7 @@
 	</section>
 
 	<!-- planos -->
-	<section class="container">
+	<section id="planos" class="container">
 		<div class="main-plan row">
 			<div class="col-md-6 centeres">
 				<div class="arro">
@@ -338,13 +365,96 @@
 
 
 	<!-- galey apa -->
-	<section>
+	<section id="galeria-apto">
 
 		<div class="title-general title-general__white title-general-bg">
 			<h3>GALERÍA <span>APARTAMENTO </span></h3>
 		</div>
+		<div class="container mr-0 pr-0">
 
-		<div class="">
+			<div class="masonry-with-columns">
+
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_11.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_12.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_13.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_14.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_12.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_11.png')">
+							</div>
+						</div>
+					</a>
+
+				</div>
+				<div class="galery-items">
+
+					<a href="#">
+						<div class="main-galery-items__card">
+							<div class="main-galery-items__img"
+								style="background:url('assets/img/galeria/image_14.png')">
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="">
 			<div class="main-galery__grid">
 				<div class="grid-slider">
 
@@ -389,10 +499,10 @@
 			</div>
 
 
-		</div>
+		</div> -->
 	</section>
 	<!-- ubicacion -->
-	<section class="mt-5 mb-5">
+	<section id="ubicacion" class="mt-5 mb-5">
 
 		<div class="main-ubication">
 			<div class="title-general title-general__white title-general-bg">
@@ -414,7 +524,7 @@
 	<!-- form -->
 	<section>
 		<div class="main-contact" style="background-image: url(assets/img/image.png);">
-		
+
 			<div class="form__item form__item--contact">
 				<div>
 					<div class="row">
@@ -508,14 +618,14 @@
 			<div class="footer__grid--tem">
 				<h3>Menú</h3>
 				<ul>
-					<li><a href="">Acerca del proyecto</a></li>
-					<li><a href="">Zonas comunes</a></li>
-					<li><a href="">Galería exterior</a></li>
-					<li><a href="">Planos del proyecto</a></li>
+					<li><a href="#acerca">Acerca del proyecto</a></li>
+					<li><a href="#zonas-comunes">Zonas comunes</a></li>
+					<li><a href="#galeria-exterior">Galería exterior</a></li>
+					<li><a href="#plano">Planos del proyecto</a></li>
 					<li><a href="">Galería del apartamento</a></li>
 
-					<li><a href="">Ubicación</a></li>
-					<li><a href="">Formulario</a></li>
+					<li><a href="#galeria-apto">Ubicación</a></li>
+					<li><a href="#form_1">Formulario</a></li>
 				</ul>
 			</div>
 			<div class="footer__grid--tem">
@@ -526,23 +636,25 @@
 				<ul>
 					<div>
 						<h3>Dirección</h3>
-					<li>
-						<a href="">Calle 77 sur Nro 34-65</a>
-					</li>
+						<li>
+							<a href="">Calle 77 sur Nro 34-65</a>
+						</li>
 					</div>
 					<div>
 						<h3>Teléfono</h3>
-					<li>
-						<a href="tel:+ 57 520 27 14<">
-							+ 57 520 27 14</a>
-					</li>
-					</div>
-					<div><h3>Celular</h3>
 						<li>
-							<a href="tel:+ 57 314 877 57 01">
-	
+							<a href="tel:+ 57 520 27 14<">
+								+ 57 520 27 14</a>
+						</li>
+					</div>
+					<div>
+						<h3>Celular</h3>
+						<li>
+							<a href="tel:+573148775701">
+
 								+ 57 314 877 57 01</a>
-						</li></div>
+						</li>
+					</div>
 					<li><a class="footer__grid--tem_btn" href="">descargar brochure</a></li>
 				</ul>
 			</div>
@@ -552,8 +664,8 @@
 
 
 	<div class="btns">
-		<a href=""><img src="assets/img/2.png" alt=""></a>
-		<a href=""><img src="assets/img/1.png" alt=""></a>
+		<a href="tel:+573148775701"><img src="assets/img/2.png" alt=""></a>
+		<a href="#nav"><img src="assets/img/1.png" alt=""></a>
 
 	</div>
 	<script src="assets/js/jquery.min.js"></script>
