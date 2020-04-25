@@ -766,6 +766,10 @@ background-repeat: no-repeat!important;
 	font-weight: 300;
     padding: 30px;
 }
+.ubication__text  span{
+	font-family: Montserrat;
+    font-weight: 500;
+}
 
 .ubication__text {
 	text-align: center;
